@@ -24,10 +24,10 @@ $package_name = "httpd"
 
 # notify { $package_multiple: } 
 
-package { $package_name:
-    ensure => installed,    
-}
-service { $package_name:
-    ensure     => running,
-    enable     => true,
-}
+#package { $package_name:
+#    ensure => installed,    
+#}
+#service { $package_name:
+ #   ensure     => running,
+  #  enable     => true,
+#}
