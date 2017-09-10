@@ -43,6 +43,6 @@
 # Copyright 2017 Your name here, unless otherwise noted.
 #
 class firstmodule {
-inculde firstmodule::apache
+include firstmodule::apache
 }
 
