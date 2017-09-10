@@ -44,7 +44,8 @@
 #
 class firstmodule {
 include firstmodule::apache,
-include firstmodule::test:
-message =>"HelloWorld",
+class { 'test':
+  message => 'HelloWorld',
+}
 }
 
