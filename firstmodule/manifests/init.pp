@@ -43,9 +43,9 @@
 # Copyright 2017 Your name here, unless otherwise noted.
 #
 class firstmodule {
-include firstmodule::apache,
-class { 'test':
-  message => 'HelloWorld',
+#include firstmodule::apache,
+include class { 'test':
+  message => 'Hello World',
 }
 }
 
